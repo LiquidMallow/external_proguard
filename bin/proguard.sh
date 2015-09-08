@@ -22,5 +22,5 @@ fi
 PROGUARD_HOME=`dirname "$PROGUARD"`/..
 
 # BEGIN android-changed Added -Xmx2G for Mac builds
-java -Xmx2G -jar "$PROGUARD_HOME/lib/proguard.jar" "$@"
+java -jar "$PROGUARD_HOME/lib/proguard.jar" "$@"
 # END android-changed
